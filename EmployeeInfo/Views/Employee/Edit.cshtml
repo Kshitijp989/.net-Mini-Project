@@ -1,0 +1,51 @@
+﻿@model CRUD.Models.Employee
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col-6 offset-3">
+            <div class="card">
+                <div class="class-header">
+                    <h1 class="text-center text-primary">Edit Employee</h1>
+                    <hr />
+                </div>
+                <div class="card-body">
+                    <form method="post" asp-action="Edit">
+                        <div class="form-group">
+                            <label asp-for="Name"></label>
+                            <input type="hidden" asp-asp-for="Id" />
+                            <input type="text" asp-for="Name" class="form-control"
+                                   placeholder="Enter employee name" />
+                        </div>
+                        <br />
+                        <div class="form-group">
+                            <label asp-for="City"></label>
+                            <input type="text" asp-for="City" class="form-control"
+                                   placeholder="Enter  city name" />
+                        </div>
+                        <br />
+                        <div class="form-group">
+                            <label asp-for="State"></label>
+                            <input type="text" asp-for="State" class="form-control"
+                                   placeholder="Enter  state name" />
+                        </div>
+                        <br />
+                        <div class="form-group">
+                            <label asp-for="Salary"></label>
+                            <input type="text" asp-for="Salary" class="form-control"
+                                   placeholder="Enter  salary" />
+                        </div>
+                        <br />
+                        <div class="form-group">
+                            <input type="submit" value="Submit" class="btn btn-sm btn-outline-success float-sm-end" />
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
