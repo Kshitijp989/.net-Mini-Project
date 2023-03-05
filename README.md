@@ -9,7 +9,7 @@ The project name is "Employee Information" and it is built using the ASP.NET MVC
 
 The project is built using the Model-View-Controller (MVC) architecture, which separates the application's concerns into three main components: the model, which represents the data and business logic; the view, which represents the user interface; and the controller, which handles user input and manages communication between the model and view.
 
-The Entity Framework is used to interact with the student database. This makes it easier to perform CRUD operations on the database without writing SQL queries directly.	
+The Entity Framework is used to interact with the employee database. This makes it easier to perform CRUD operations on the database without writing SQL queries directly.	
 
 
 ### **Features**
